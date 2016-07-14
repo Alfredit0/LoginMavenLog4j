@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Redireccionar</servlet-name>
+  	<display-name>Redireccionar</display-name>
+  	<description></description>
+  	<servlet-class>controlador.Redireccionar</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Valida</servlet-name>
+  	<display-name>Valida</display-name>
+  	<description></description>
+  	<servlet-class>controlador.Valida</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Redireccionar</servlet-name>
+  	<url-pattern>/Redireccionar.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Valida</servlet-name>
+  	<url-pattern>/Valida.do</url-pattern>
+  </servlet-mapping>
+</web-app>
